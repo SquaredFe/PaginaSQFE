@@ -1,0 +1,52 @@
+.HeaderMenu a:visited{
+    color:#CD8644;
+}
+.header__logo{
+    width: 200px;
+    transition: 0.2s;
+    filter: saturate(0%); 
+}
+.header__logo:hover{
+    width: 250px;
+    filter: saturate(100%)
+}
+header{
+    padding: 1em;
+    background-color: #FFF3ED;
+    display: flex;
+    position:fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+body{
+    margin: 0;
+    background-color: #FFF3ED;
+}
+.Header{
+    display: grid;
+    align-self: center;
+    width: fit-content;
+}
+.HeaderMenu{
+    align-self: center;
+    margin-right: 20px;
+    margin-left: auto;
+}
+.HeaderMenu a{
+    margin: 2px;
+    font-family: "Space Mono", monospace;
+    text-decoration:none;
+    font-size: 20px;
+    line-height: 2px;
+    padding: 10px
+}
+.banner{width: 100%;}
+h1 {
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    color: #F26D23
+}
+p{
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
